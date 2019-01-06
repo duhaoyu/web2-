@@ -1,0 +1,765 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>dhy的web大作业</title>
+    <style type="text/css">
+   .one{
+
+    height:30px;
+    background:white;
+   }
+   .two{
+    height:30px;
+    color:gray;
+    width:457px;
+    background:white;
+    font-size:15px;
+    float:left;
+    margin-left:85px;
+
+   }
+   .three{
+    height:30px;
+    float:left;
+
+
+   }
+   .four{
+    height:64px;
+    background:white;
+    margin-top:15px;
+
+
+   }
+   .five{
+    background:white;
+    height:64px;
+    width:250px;
+    float:left;
+    text-align: center;
+     margin-left:10px;
+   }
+   .six{
+     background:white;
+     height:64px;
+     width:700px;
+     margin-left:150px;
+     float:left;
+
+   }
+   .seven{ 
+    height:30px;
+    width:500px;
+    border:6px solid #fe6c00;
+    margin-top:15px;
+    
+
+   }
+   .eight{
+    width:80px;
+    height:44px;
+    background:#fe6c00;
+    border-width:0px; border-color:#fe6c00; 
+    color:white;
+    margin-top:15px;
+
+   }
+   .nine{
+    float:left;
+ 
+   }
+   .nine2{
+    float:left;
+    margin-top:5px;
+   }
+   .ten{
+     float:left;
+    background:white;
+    width:90px;
+    height:64px;
+   }
+   .eleven{
+    float:left;
+    font-size:13px;
+    padding-top:5px;
+    color:gray;
+   }
+   .twelve{
+    float:left;
+    font-size:13px;
+    padding-top:5px;
+    color:#fe6c00;
+   }
+   .thirteen{
+    width:90px;
+    height:55px;
+    border:2px solid #e7e6e3; 
+    float:left;
+    margin-left:10px;
+    margin-top:5px;
+   }
+   .fourteen{
+    width:90px;
+    height:55px;
+    border:2px solid #e7e6e3; 
+    float:left;
+    margin-top:5px;
+   }
+   .fifteen{
+    width:90px;
+    height:55px;
+    border:2px solid #ff4d04; 
+    background:#ff4d04;
+    float:left;
+    margin-top:5px;
+    color:white;
+   }
+   .app{
+  width: 123px;
+  height:50px;
+    }
+    #ewm{
+  background:#fd9a6e;
+  width: 123px;
+  height: 100px;
+   position: absolute;
+  
+    }
+    #ewm1{
+   display: block; 
+   width: 24px;
+   height: 24px;
+    margin-left: 11px;
+     margin-top: 50px; 
+    }
+    #ewm2{
+  margin-left: 15px;
+  margin-top: 5px;
+  display: none;}
+
+   .sixteen{
+    width:600px;
+    height:25px;
+    margin-left:409px;
+    background:white;
+   }
+   .seventeen{
+    width:171px;
+    height:35px;
+    color:white;
+    background:#ff4d04;
+    margin-left:65px;
+    text-align:center;
+    padding-top:15px;
+    float:left;
+   }
+   .eighteen{
+    width:830px;
+    height:35px;
+     float:left;
+     background:white;
+   
+      padding-top:15px;
+   }
+   .ninteen{
+     height:896px;
+     background:#f8f7f6;
+     margin-top:50px;
+     border-style:solid; 
+     border-width:2px;
+     border-top-color:#ff4d04;
+     border-left-color:white;
+     border-right-color:white;
+     border-bottom-color:white; 
+   }
+   .twenty{
+    width:172px;
+    height:551px;
+    background:white;
+    margin-left:63px;
+    float:left;
+   }
+   .thirty{
+    width:25px;
+    height:423px;
+    background:#4c4c4a;
+    float:left;
+    color:#924c4a;
+    font-size:17px;
+    text-align:center;
+   }
+   .tu4{
+    height: 140px;
+    width: 43px;
+    position: fixed;
+    z-index: 1;
+    top: 517px;
+    right:0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+}
+.tu1{
+    height: 105px;
+    width: 43px;
+    position: fixed;
+    z-index: 1;
+    top: 110px;
+    right:0;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    }
+    .df{
+  
+    height: 45px;
+    }
+    .ef{
+   height: 60px;
+    }
+   .fourty{
+    width:805px;
+    height:363px;
+    background:#ff4d04;
+    float:left;
+   }
+   .fifty{
+    width:274px;
+    height:553px;
+    background:white;
+    float:left;
+   }
+   .sixty{
+    width:805px;
+    height:185px;
+    background:white;
+    float:left;
+   }
+   .seventy{
+    width:1250px;
+    height:347px;
+    margin-left:65px;
+    float:left;
+   }
+   .zhong1{
+        width: 800px;
+        height: 361px;
+        border: 1px solid red;
+        position: relative;
+        overflow: hidden;
+        float:left; 
+    }
+    .zhong1>span{
+        display: block;
+        width: 50px;
+        height: 50px;
+        text-align: center;
+        cursor: pointer;
+        top: 175px;
+        line-height: 50px;
+        background: #fff;
+        font-size: 30px;
+        position: absolute;
+        opacity: 0;
+        border-radius:5px;
+    }
+    #left{
+        left: 30px;
+    }
+    #right{
+        right: 30px;
+    }
+    .nav{
+        position: absolute;
+        left: 200px;
+        bottom: 20px;
+    }
+    .nav>li{
+        float: left;
+        width: 20px;
+        height: 20px;
+        background: #ccc;
+        cursor: pointer;
+        margin: 0 10px;
+        border-radius: 50%;
+    }
+    .nav .active{
+        background: red;
+    }
+    .slider{
+        width: 6400px;
+        position: absolute;
+        left: -800px;
+    }
+    .zhongtu1{
+        float:left;
+        width: 800px;
+        overflow: hidden;
+    }
+    #you2{
+        width:270px;
+        height:320px;
+        float:left;
+        background-color:white;
+        border-bottom:1px solid #ebeae7;
+        overflow:hidden;
+    }
+    #you2 #con1,#con2{
+        width:170px;
+        padding-left:16px;
+    }
+    #you2 li{
+        height:15px;
+        line-height:15px;
+        padding-left:0;
+        color:#ff4d04;
+        font-size:13px;
+        font-weight:bold;
+        margin-bottom:14px;
+    }  
+    .tu2{
+    height: 140px;
+    width: 123px;
+    position: fixed;
+    z-index: 1;
+    top: 219px;
+    right:-80px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    }
+    .tua{
+  height: 140px;
+  width: 60px;
+  float: left;
+  background: red;
+    }
+    .tub{
+  height: 140px;
+  width: 63px;
+  float: left;
+  text-align: center;
+  background: #fd9a6e;
+  padding-top: 30px;
+    }
+    .dl{
+  color: white;
+  width: 30px;
+  font-size: 5px;
+  border: 1px white solid;
+  text-align: center;
+  margin-left: 15px;
+  margin-top: 15px;
+
+    }
+    .zhudi{
+        font-size:13px;
+        margin-left:5px;
+        color:orange;
+    }
+    .wdl{
+  font-size: 3px;
+  margin-top: 30px;
+    }
+    .tu3{
+    height: 150px;
+    width: 43px;
+    position: fixed;
+    z-index: 1;
+    top: 363px;
+    right:0 ;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    transition: 0.5s;
+    }
+
+    </style>
+   
+</head>
+<body>
+   <div id="ashjk">
+<div class="one"> 
+<div class="two">帮五买，享帮帮</div>
+<div class="three">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/one_02.jpg"></div>
+<div class="eleven">&nbsp;&nbsp;登录&nbsp;&nbsp;&nbsp;注册&nbsp;&nbsp;&nbsp;</div>
+<div class="nine"><img src="img/two_04.jpg"></div>
+<div class="eleven">&nbsp;&nbsp;消息&nbsp;&nbsp;</div>
+<div class="nine"><img src="img/three_07.jpg"></div>
+<div class="eleven">&nbsp;&nbsp;我的订单&nbsp;&nbsp;我的收藏&nbsp;&nbsp;帮钻兑换&nbsp;&nbsp;</div>
+<div class="nine2"><img src="img/phone(1).png"></div>
+<div class="eleven">&nbsp;手机版&nbsp;&nbsp;&nbsp;帮五淘&nbsp;&nbsp;&nbsp;客户服务&nbsp;&nbsp;&nbsp;</div>
+<div class="nine2"><img src="img/gouwuche(1).jpg"></div>
+<div class="eleven">&nbsp;购物车&nbsp;</div>
+<div class="twelve"><strong>0</strong></div>
+</div>
+
+<div class="four">
+   <div class="five"> <img src="img/logo_03.jpg"></div>
+
+   <div class="six">
+   <div class="nine"><input type="text" class="seven" placeholder="输入商品网址或关键字，直通全网，快速帮5购"></div>
+
+   <div class="ten"><button class="eight">搜全网</button></div>
+   </div>
+
+   <div class="thirteen"><img  style="margin-left:32px;margin-top:7px;" src="img/five_17.jpg"><p style="font-size:10px;margin-top:13px;color:#9a9791;margin-left:10px;">400-085-0507</p></div>
+   <div class="fourteen"><img  style="margin-left:32px;margin-top:0px;" src="img/two_04.jpg"><p style="font-size:10px;margin-bottom:15px;color:#9a9791;margin-left:10px;">mc@b5m.com</p></div>
+    <div class="fifteen"><p style="font-size:15px;"> &nbsp;&nbsp;? 常见问题</p></div>
+
+
+</div>
+  
+  <div class="sixteen"><div style="color:red;float:left;font-size:12px;">洗发护发 &nbsp;</div><div style="float:left;color:gray;font-size:12px;">|&nbsp;&nbsp;</div><div style="float:left;color:red;font-size:12px;">日本纸尿裤&nbsp;&nbsp;</div> <div style="float:left;color:gray;font-size:12px;">|&nbsp;&nbsp;</div>
+  <div style="font-size:12px;float:left;">身体乳&nbsp;&nbsp;</div>
+  <div style="float:left;color:gray;font-size:12px;">|&nbsp;&nbsp;</div>
+ <div  style="font-size:12px;float:left;">内衣文胸&nbsp;&nbsp;</div>
+ <div style="float:left;color:gray;font-size:12px;">|&nbsp;&nbsp;</div>
+  <div style="color:#b3caf0;font-size:12px;float:left;">ipone 6s&nbsp;&nbsp;</div>
+   <div style="float:left;color:gray;font-size:12px;">|&nbsp;&nbsp;</div>
+   <div  style="color:#b3caf0;font-size:12px;float:left;">ipad Air2&nbsp;&nbsp;</div>
+     <div style="float:left;color:gray;font-size:12px;">|&nbsp;&nbsp;</div>
+    <div  style="font-size:12px;float:left;">牛仔裤&nbsp;&nbsp;</div>
+    <div style="float:left;color:gray;font-size:12px;">|&nbsp;&nbsp;</div>
+    <div  style="font-size:12px;float:left;"> 奶粉&nbsp;&nbsp;</div>
+    <div style="float:left;color:gray;font-size:12px;">|&nbsp;&nbsp;</div>
+    <div  style="font-size:12px;float:left;"> 防晒霜&nbsp;&nbsp;</div>
+    <div style="float:left;color:gray;font-size:12px;">|&nbsp;&nbsp;</div>
+    <div  style="font-size:12px;float:left;"> 伞</div>
+    </div>
+    </div>
+
+
+    <div class="seventeen">全部商品分类</div>
+    <div class="eighteen"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;帮5赚&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;帮韩品 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;超划算&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 品牌货栈&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;韩国馆 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;帮社区 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;一元兑奖<img src="img/hot.gif">
+    </div>
+  
+
+    <div class="ninteen">
+        <div class="twenty">
+            <div class="thirty"><p>当前搜索电商 &nbsp;&nbsp; &nbsp;&nbsp; 全网</p> </div>
+            <div style="float:left;background:white;width:147px;height:423px;">
+                <p style="font-size:13px;">&nbsp;&nbsp;&nbsp;手机&nbsp;数码&nbsp;影音&nbsp;配件&nbsp;</p>
+                 <p style="font-size:13px;">&nbsp;&nbsp;&nbsp;电脑&nbsp;网络&nbsp;办公&nbsp;打印&nbsp;</p>
+                  <p style="font-size:13px;">&nbsp;&nbsp;&nbsp;家电&nbsp;厨卫&nbsp;生活&nbsp;个户&nbsp;</p>
+                   <p style="font-size:13px;">&nbsp;&nbsp;&nbsp;园艺&nbsp;家具&nbsp;家纺&nbsp;家饰&nbsp;</p>
+                    <p style="font-size:13px;">&nbsp;&nbsp;&nbsp;彩妆&nbsp;面部&nbsp;身体&nbsp;香水&nbsp;</p>
+                     <p style="font-size:13px;">&nbsp;&nbsp;&nbsp;男装&nbsp;女装&nbsp;内衣&nbsp;其他&nbsp;</p>
+                      <p style="font-size:13px;">&nbsp;&nbsp;&nbsp;女包&nbsp;男包&nbsp;女鞋&nbsp;男鞋&nbsp;</p>
+                       <p style="font-size:13px;">&nbsp;&nbsp;&nbsp;运动&nbsp;户外&nbsp;装备&nbsp;服饰&nbsp;</p>
+                        <p style="font-size:13px;">&nbsp;&nbsp;&nbsp;儿童&nbsp;婴儿&nbsp;食品&nbsp;玩具&nbsp;</p>
+                         <p style="font-size:13px;">&nbsp;&nbsp;&nbsp;乐器&nbsp;家宠&nbsp;收藏&nbsp;鲜花&nbsp;</p>
+                          <p style="font-size:13px;">&nbsp;&nbsp;&nbsp;保健&nbsp;理疗&nbsp;药品&nbsp;眼镜&nbsp;</p>
+                           <p style="font-size:13px;">&nbsp;&nbsp;&nbsp;果蔬&nbsp;礼品&nbsp;粮油&nbsp;特产&nbsp;</p>
+                            <p style="font-size:13px;">&nbsp;&nbsp;&nbsp;文艺&nbsp;生活&nbsp;科技&nbsp;教育&nbsp;</p>
+            </div>
+            <div style="background:white;width:172px;height:128px;float:left; border-style:solid; 
+     border-width:2px;
+     border-top-color:#ff4d04;
+     border-left-color:white;
+     border-right-color:white;
+     border-bottom-color:white;">    <p style="font-size:13px;color:#855d38;">&nbsp;&nbsp; <img src="img/dd_03.jpg">&nbsp;&nbsp;&nbsp;什么是帮5购</p><p style="font-size:13px;color:#855d38;">&nbsp;&nbsp; <img src="img/dd_06.jpg">&nbsp;&nbsp;&nbsp;帮5购提供什么服务</p><p style="font-size:13px;color:#855d38;">&nbsp;&nbsp; <img src="img/dd_08.jpg">&nbsp;&nbsp;&nbsp;如何开通帮5购服务</p></div>
+
+        </div>
+        <div style="float:left;width:805px;height:550px;background:white;">
+        <div class="zhong1" id="zhong1">
+                        <div class="slider" id="slider">
+                            <div class="zhongtu1"><img src="img/bann6.jpeg" ></div>
+                            <div class="zhongtu1"><img src="img/bann1.jpeg" ></div>
+                            <div class="zhongtu1"><img src="img/bann2.jpeg" ></div>
+                            <div class="zhongtu1"><img src="img/bann3.jpeg" ></div>
+                            <div class="zhongtu1"><img src="img/bann4.jpeg" ></div>
+                            <div class="zhongtu1"><img src="img/bann5.jpeg" ></div>
+                            <div class="zhongtu1"><img src="img/bann6.png" ></div>
+                            <div class="zhongtu1"><img src="img/bann1.jpeg" ></div>
+                        </div>
+                        <span id="left"><</span>
+                        <span id="right">></span>
+                        <ul class="nav" id="nav">
+                            <li class="active">1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                            <li>6</li>
+                        </ul>
+                    </div>
+
+            <div class="sixty"> <img src="img/1(1).jpg"><img src="img/2(1).jpg"><img src="img/3(1).png"><a   href="./huahua.html"><img src="img/qqq.png"></a></div>
+        </div>
+
+        <div class="fifty">   
+        <div style="width:270px;height:45px;float:left;background:white;color:#fe6c00;">
+         <img style="margin-top:12px;margin-left:20px;"src="img/ico-notice.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;帮帮快讯&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/jiantou.jpg">
+         </div>
+
+        <div id="you2">
+                        <ul id="con1">
+                            <li>[公告] 帮购及VIP服务调整1</li>
+                            <li>[公告] 帮购及VIP服务调整2</li>
+                            <li>[公告] 帮购及VIP服务调整3</li>
+                            <li>[公告] 帮购及VIP服务调整4</li>
+                            <li>[公告] 帮购及VIP服务调整5</li>
+                            <li>[公告] 帮购及VIP服务调整6</li>
+                            <li>[公告] 帮购及VIP服务调整7</li>
+                            <li>[公告] 帮购及VIP服务调整8</li>
+                            <li>[公告] 帮购及VIP服务调整9</li>
+                            <li>[公告] 帮购及VIP服务调整10</li>
+                            <li>[公告] 帮购及VIP服务调整11</li>
+                            <li>[公告] 帮购及VIP服务调整12</li>
+                            <li>[公告] 帮购及VIP服务调整13</li>
+                        </ul>
+                        <ul id="con2"></ul>
+                    </div>
+
+        <img style="margin-left:15px;margin-top:5px;" src="img/phone.png">&nbsp;&nbsp;&nbsp; 话费充值<strong style="color:#ff4d04;">（可使用超级帮钻）</strong>
+
+        <input type="text" style="margin-left:15px;margin-top:5px;width:150px;" placeholder="请输入手机号">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <select style="margin-left:15px;margin-top:5px;"id="sel" onclick="change()">
+        <option value ="30">30&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+        <option value ="50">50&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+        <option value="60">60&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+        <option value="90">90&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</option>
+        </select>
+       
+        <strong class="zhudi" id="zhudi2">¥30</strong>
+
+        <button style="background:#ff4d04;color:white;width:230px;height:30px;margin-left:15px;margin-top:5px;">充值</button>
+         </div>
+
+         <div class="seventy">
+             
+            <div style="width:1250px;height:189px;float:left;">
+
+            <div style="width:217px;height:189px;float:left;">
+            <img src="img/loginB.jpg">
+            </div>
+            <div style="width:768px;height:189px;float:left;">
+                <p><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;购物指南&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 支付相关&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;售后服务&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;VIP服务 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;帮韩品 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;更多</strong></p>
+                <p style="color:#666560;font-size:13px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;如何下单&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; 支付方式 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;取消订单 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;VIP优惠  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;韩国正品&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 手机APP</p>
+                 <p style="color:#666560;font-size:13px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;帮5购流程&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; 安全设置 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;申请售后 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 如何成为VIP  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;闪电发货&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;帮5采APP</p>
+                  <p style="color:#666560;font-size:13px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;订单查询&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; 账户信息 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;退货流程 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;超级帮钻  &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;帮韩品售后&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;帮5淘插件</p>
+                   <p style="color:#666560;font-size:13px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;物流配送&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;退款相关 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;其他</p>
+            </div>
+            <div style="margin-top:20px;margin-left:45px;width:217px;height:189px;float:left;">
+            <img src="img/erweima.jpg">
+            </div>
+
+            </div>
+
+         <hr/ style="width:1050px;margin-left:200px;">
+
+         <p style="color:#667aaa;margin-left:250px;font-size:12px;"> 关于帮5买&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;联系我们&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;合作商家&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;友情链接&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;加入我们&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;移动应用&nbsp; | &nbsp;&nbsp;&nbsp;热门&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;广告联盟&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;使用条款 </p>
+         <p style="color:#667aaa;margin-left:350px;font-size:11px;"> Copyright c 2011-2015 BSM.COM.All rights reserved.Powered by BSMsoft.Co.Ltd</p>
+         <p style="color:#667aaa;margin-left:150px;font-size:11px;">增值电信业务经营许可证：沪82-20130065号 | 中华人民共和国互联网药品信息服务资格证书（沪）—非经营性-2013-0034沪卫（中医）网审【2015】10032号 沪ICP备11034776号-3 | 食品流通许可证：</p>
+         <p style="color:#667aaa;margin-left:550px;font-size:11px;">sp3101151410301755</p>
+
+         <img  style="margin-left:250px;"src="img/bo1.gif">
+         <img src="img/bo2.png">
+         <img src="img/bo3.gif">
+         <img src="img/bo4.png">
+         <img src="img/bo5.png">
+         <img src="img/bo6.png">
+         <img src="img/bo7.png">
+         </div>
+
+    </div>
+    <div id="mySidenav1" class="tu1" onmouseover="openNav1()" onmouseout="closeNav1()">
+    <div class="ef"><img src="img/consult-s.png" ></div>
+    <div class="df"><img src="img/xiaobang.png" ></div>
+    </div>
+    <div id="mySidenav4" class="tu4" onmouseover="openNav4()" onmouseout="closeNav4()">
+        <img src="img/cart.png">
+    </div>
+    <div id="mySidenav2" class="tu2" onmouseover="openNav2()" onmouseout="closeNav2()">
+    <div class="tua" >
+      <img src="img/youhui.png">
+    </div>
+    <div class="tub">
+   <div class="wdl">未登录</div>
+     <div class="dl">登录</div>
+     </div>
+    </div>
+    <div id="mySidenav3" class="tu3" onmouseover="openNav3()" onmouseout="closeNav3()">
+     <div class="app">
+    <img src="img/app.png">
+     </div>
+    <div id="ewm">
+    <div id="ewm1"><img src="img/serwei.png"></div>
+     <div id="ewm2"><img src="img/erwei.png"></div>
+     </div>
+    </div>
+  
+</body>
+ <script type="text/javascript">
+
+
+    function openNav1() {
+    document.getElementById("mySidenav1").style.width = "123px";
+    }
+    var tingting= document.getElementById("sel");
+    var tingting2= document.getElementById("zhudi2");
+    function change(){
+         tingting2.innerHTML="¥"+tingting.value;
+    }
+    function closeNav1() {
+    document.getElementById("mySidenav1").style.width = "43px";
+    }
+      function animate(obj,json,callback){
+            clearInterval(obj.timer);
+            obj.timer = setInterval(function(){
+                var isStop = true;
+                for(var attr in json){
+                    if(attr=='opacity'){
+                        var now = parseInt(getStyle(obj,attr)*100);
+                    }
+                    else{
+                        var now = parseInt(getStyle(obj,attr));
+                    }
+                    var speed = (json[attr]-now)/5;
+                    speed = speed>0?Math.ceil(speed):Math.floor(speed);
+                    var current = now+speed;
+                    if(attr=='opacity'){
+                        obj.style[attr] = (now+speed)/100;
+                    }
+                    else{
+                        obj.style[attr] = now+speed+'px';   
+                    }   
+                    if(json[attr]!=current){
+                        isStop = false;
+                    }
+                }
+                if(isStop){
+                    clearInterval(obj.timer);
+                    callback&&callback();
+                }
+            },10)
+        }
+        function openNav3() {
+    document.getElementById("mySidenav3").style.width = "123px";
+    document.getElementById("ewm1").style.display="none";
+     document.getElementById("ewm2").style.display="block";
+    }
+
+    function closeNav3() {
+    document.getElementById("mySidenav3").style.width = "43px";
+    document.getElementById("ewm1").style.display="block";
+     document.getElementById("ewm2").style.display="none";
+
+    }
+        function getStyle(obj,style){
+            if(obj.currentStyle){
+                return obj.currentStyle[style];
+            }
+            else{
+                return getComputedStyle(obj)[style];
+            }
+        }
+        var slider = document.getElementById('slider');
+        var left = document.getElementById('left');
+        var right = document.getElementById('right');
+        var index = 1;
+        var timer = setInterval(next,3000)
+        var zhong1 = document.getElementById('zhong1');
+        zhong1.onmouseover = function(){
+            clearInterval(timer);
+            animate(left,{opacity:50});
+            animate(right,{opacity:50});
+        }
+        function openNav4() {
+        document.getElementById("mySidenav4").style.width = "123px";
+    }
+
+    function closeNav4() {
+     document.getElementById("mySidenav4").style.width = "43px";
+    }
+        zhong1.onmouseout = function(){
+            animate(left,{opacity:0});
+            animate(right,{opacity:0});
+            timer = setInterval(next,3000);
+        }
+        right.onclick = next;
+        left.onclick = prev;
+        function next(){
+            index++;
+            animate(slider,{left:-800*index},function(){
+                if(index==7){
+                    slider.style.left='-800px';
+                    index = 1;
+                }
+            });
+            navChange();
+        }
+        function closeNav2() {
+        document.getElementById("mySidenav2").style.right= "-80px";
+        }
+        function prev(){
+            index--;
+            animate(slider,{left:-800*index},function(){
+                if(index==0){
+                    slider.style.left='-4800px';
+                    index = 6;
+                }
+            });
+            navChange();
+        }
+        var oNavlist = document.getElementById('nav').children;
+        for(var i = 0;i<oNavlist.length;i++){
+            oNavlist[i].idx = i;
+            oNavlist[i].onclick = function(){
+                index = this.idx+1;
+                animate(slider,{left:-800*index});
+                navChange();
+            }
+        }
+        function openNav4() {
+     document.getElementById("mySidenav4").style.width = "123px";
+        }
+        function navChange(){
+            for(var i = 0;i<oNavlist.length;i++){
+                oNavlist[i].className = '';
+            }
+            if(index==7){
+                oNavlist[0].className = 'active';
+            }
+            else if(index==0){
+                oNavlist[5].className = 'active';
+            }
+            else{
+                oNavlist[index-1].className = 'active';
+            } 
+        }
+
+
+      var area =document.getElementById('you2');
+        var con1 = document.getElementById('con1');
+        var con2 = document.getElementById('con2');
+        con2.innerHTML=con1.innerHTML;
+        function scrollUp(){
+            if(area.scrollTop>=con1.offsetHeight){
+                area.scrollTop=0;
+            }else{
+                area.scrollTop++;
+            }
+        }                
+        var time = 50;
+        var mytimer=setInterval(scrollUp,time);
+        area.onmouseover=function(){
+            clearInterval(mytimer);
+        }
+        area.onmouseout=function(){
+            mytimer=setInterval(scrollUp,time);
+        }
+
+        function openNav2() {
+
+    document.getElementById("mySidenav2").style.right="0";
+        }
+
+        function closeNav2() {
+    document.getElementById("mySidenav2").style.right= "-80px";
+        }
+
+    </script>
+</html>
